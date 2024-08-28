@@ -1,6 +1,5 @@
 from setuptools import setup, find_packages
 from codecs import open
-import pybenlogger
 import os
 
 
@@ -12,14 +11,14 @@ with open('README.md', 'r') as readme_file:
 
 
 setup(
-    name='pybenutils',
-    version=pybenlogger.__version__,
-    description='PyBEN Utilities repository',
+    name='pybenlogger',
+    version='2.0.0',
+    description='PyBEN logger repository',
     long_description=readme_content,
     long_description_content_type='text/markdown',
     url='https://github.com/DarkFlameBEN/pybenlogger.git',
-    author=pybenlogger.__author__,
-    author_email=pybenlogger.__author_email__,
+    author='Ben Moskovitch',
+    author_email='"Ben Moskovitch" <darkflameben@gmail.com>',
     license='MIT License',
     classifiers=[
         # "Development Status :: 1 - Planning",
