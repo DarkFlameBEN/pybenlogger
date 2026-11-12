@@ -12,7 +12,7 @@ with open('README.md', 'r') as readme_file:
 
 setup(
     name='pybenlogger',
-    version='2.0.0',
+    version='2.1.0',
     description='PyBEN logger repository',
     long_description=readme_content,
     long_description_content_type='text/markdown',
